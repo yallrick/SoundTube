@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ServiceWCFRestFul" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-01.2.3">
+  <Role name="WCFServiceWebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=servicewcfrest;AccountKey=YR/ixvYC9mx/u/s3+lvVSzKivpTjKEc0uIHauweLdSThAexxcJZ0aN0seVfOG5Go9LRZEQmNCV60px+1fzkKXQ==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
